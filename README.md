@@ -32,7 +32,7 @@ This is a personalized and customizable template for a New Tab since most of the
   1. Head over to browser settings
   2. Navigate to the 'On Start-Up' section
   3. Select the 'Open A Specific Page' radio button
-  4. Set the site URL as: 
+  4. Set the new tab site URL as: 
   
   
 ## Instructions to Contribute:
