@@ -36,7 +36,7 @@ This is a personalized and customizable template for a New Tab since most of the
   
   
 ## Instructions to Contribute:
-  1. ```git clone https://github.com/BugCrush/New-Tab.git```
+  1. ```git clone https://github.com/BugCrush/New_Tab.git```
   2. ```cd New-Tab```
   3. ```npm i```
   4. ```npm start```
