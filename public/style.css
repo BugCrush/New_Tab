@@ -7,6 +7,8 @@
     --color5: #008000;
 }
 
+
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 *,
 *:before,
@@ -28,11 +30,11 @@ body {
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  background: var(--color2);
-  color: var(--color1);
+  background: #111;
+  color: #fff;
 }
 
-/*****CLOCK*****/
+
 
 a.switcher {
   display: block;
@@ -44,7 +46,7 @@ a.switcher {
   width: 16px;
   height: 16px;
   background: transparent;
-  border: 2px solid var(--color1);
+  border: 2px solid #fff;
   border-radius: 50%;
   opacity: 0.15;
   -webkit-transition: opacity 0.15s;
@@ -60,7 +62,7 @@ a.switcher:before {
   border-radius: 4px;
   width: 2px;
   height: 5px;
-  background: var(--color1);
+  background: #fff;
   top: 0;
   left: 5px;
 }
@@ -82,7 +84,7 @@ a.switcher:before {
   bottom: 0;
   left: 0;
   margin: auto;
-  border-top: 200px solid var(--color1);
+  border-top: 200px solid #fff;
   border-right: 100px solid transparent;
   border-left: 100px solid transparent;
   border-bottom: 0 solid transparent;
@@ -97,7 +99,7 @@ a.switcher:before {
   top: -194px;
   left: -90px;
   margin: auto;
-  border-top: 180px solid var(--color2);
+  border-top: 180px solid #111;
   border-right: 90px solid transparent;
   border-left: 90px solid transparent;
   border-bottom: 0 solid transparent;
@@ -114,8 +116,8 @@ a.switcher:before {
   left: 0;
   margin: auto;
   border-top: 200px solid transparent;
-  border-right: 100px solid var(--color2);
-  border-left: 100px solid var(--color2);
+  border-right: 100px solid #111;
+  border-left: 100px solid #111;
   border-bottom: 0 solid transparent;
 }
 .clock {
@@ -175,8 +177,8 @@ a.switcher:before {
   content: attr(data-time);
   position: absolute;
   top: 0;
-  color: var(--color1);
-  background: var(--color2);
+  color: #fff;
+  background: #111;
   overflow: hidden;
   width: 720px;
   height: 128px;
@@ -184,12 +186,12 @@ a.switcher:before {
 }
 .glitch .clock span:before {
   left: -2px;
-  text-shadow: 2px 0 var(--color3);
+  text-shadow: 2px 0 #00f;
   animation: c2 1s infinite linear alternate-reverse;
 }
 .glitch .clock span:after {
   left: 3px;
-  text-shadow: -2px 0 var(--color4);
+  text-shadow: -2px 0 #f00;
   animation: c1 2s infinite linear alternate-reverse;
 }
 @-webkit-keyframes is-off {
@@ -235,17 +237,17 @@ a.switcher:before {
   91% {
     -webkit-transform: scaleX(1) scaleY(1) skewX(0deg);
             transform: scaleX(1) scaleY(1) skewX(0deg);
-    color: var(--color1);
+    color: #fff;
   }
   92% {
     -webkit-transform: scaleX(1.5) scaleY(0.2) skewX(80deg);
             transform: scaleX(1.5) scaleY(0.2) skewX(80deg);
-    color: var(--color5);
+    color: #008000;
   }
   93% {
     -webkit-transform: scaleX(1) scaleY(1) skewX(0deg);
             transform: scaleX(1) scaleY(1) skewX(0deg);
-    color: var(--color1);
+    color: #fff;
   }
 }
 @keyframes is-off {
@@ -291,17 +293,17 @@ a.switcher:before {
   91% {
     -webkit-transform: scaleX(1) scaleY(1) skewX(0deg);
             transform: scaleX(1) scaleY(1) skewX(0deg);
-    color: var(--color1);
+    color: #fff;
   }
   92% {
     -webkit-transform: scaleX(1.5) scaleY(0.2) skewX(80deg);
             transform: scaleX(1.5) scaleY(0.2) skewX(80deg);
-    color: var(--color5);
+    color: #008000;
   }
   93% {
     -webkit-transform: scaleX(1) scaleY(1) skewX(0deg);
             transform: scaleX(1) scaleY(1) skewX(0deg);
-    color: var(--color1);
+    color: #fff;
   }
 }
 @-webkit-keyframes c1 {
