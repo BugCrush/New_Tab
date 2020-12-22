@@ -1,7 +1,7 @@
-$(document).ready(function () {
+jQuery_2_1_3(document).ready(function () {
 
   function second_passed() {
-    $('.clock').removeClass('is-off');
+    jQuery_2_1_3('.clock').removeClass('is-off');
   }
   setTimeout(second_passed, 2000)
 
@@ -17,8 +17,8 @@ $(document).ready(function () {
 
     var realTime = ( hours < 10 ? '0' : '' ) + hours + ' : ' + ( minutes < 10 ? '0' : '' ) + minutes + ' : ' + ( seconds < 10 ? '0' : '' ) + seconds
 
-    $('.time').html(realTime);
-    $('.time').attr('data-time', realTime);
+    jQuery_2_1_3('.time').html(realTime);
+    jQuery_2_1_3('.time').attr('data-time', realTime);
 
   }, 1000);
 
