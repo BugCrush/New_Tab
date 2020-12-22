@@ -35,7 +35,7 @@ color: #fff;
 }
 
 
-
+/*****CLOCK*****/
 
 .screen {
 position: relative;
@@ -1480,4 +1480,68 @@ animation: c1 2s infinite linear alternate-reverse;
 100% {
   background-position: 0 -32px;
 }
+}
+
+
+/*****404*****/
+
+div.errormsg {
+  margin-top: 80px;
+  text-align: center;
+}
+
+span.blueb {
+  font-size: 100px;
+  -webkit-animation: errorglitch1 0.5s linear infinite;
+     -moz-animation: errorglitch1 0.5s linear infinite;
+       -o-animation: errorglitch1 0.5s linear infinite;
+         -animation: errorglitch1 0.5s linear infinite;
+}
+@-webkit-keyframes errorglitch1 {
+  0%   { text-shadow: 0px 0px 5px var(--color3); }
+  50%  { text-shadow: 0px 0px 5px var(--color4); }
+  100% { text-shadow: 0px 0px 5px var(--color3); }
+}
+@-o-keyframes errorglitch1 {
+  0%   { text-shadow: 0px 0px 5px var(--color3); }
+  50%  { text-shadow: 0px 0px 5px var(--color4); }
+  100% { text-shadow: 0px 0px 5px var(--color3); }
+}
+@-moz-keyframes errorglitch1 {
+  0%   { text-shadow: 0px 0px 5px var(--color3); }
+  50%  { text-shadow: 0px 0px 5px var(--color4); }
+  100% { text-shadow: 0px 0px 5px var(--color3); }
+}
+@keyframes errorglitch1 {
+  0%   { text-shadow: 0px 0px 5px var(--color3); }
+  50%  { text-shadow: 0px 0px 5px var(--color4); }
+  100% { text-shadow: 0px 0px 5px var(--color3); }
+}
+
+span.redb {
+  font-size: 100px;
+  -webkit-animation: errorglitch2 0.5s linear infinite;
+     -moz-animation: errorglitch2 0.5s linear infinite;
+       -o-animation: errorglitch2 0.5s linear infinite;
+         -animation: errorglitch2 0.5s linear infinite;
+}
+@-webkit-keyframes errorglitch2 {
+  0%   { text-shadow: 0px 0px 5px var(--color4); }
+  50%  { text-shadow: 0px 0px 5px var(--color3); }
+  100% { text-shadow: 0px 0px 5px var(--color4); }
+}
+@-o-keyframes errorglitch2 {
+  0%   { text-shadow: 0px 0px 5px var(--color4); }
+  50%  { text-shadow: 0px 0px 5px var(--color3); }
+  100% { text-shadow: 0px 0px 5px var(--color4); }
+}
+@-moz-keyframes errorglitch2 {
+  0%   { text-shadow: 0px 0px 5px var(--color4); }
+  50%  { text-shadow: 0px 0px 5px var(--color3); }
+  100% { text-shadow: 0px 0px 5px var(--color4); }
+}
+@keyframes errorglitch2 {
+  0%   { text-shadow: 0px 0px 5px var(--color4); }
+  50%  { text-shadow: 0px 0px 5px var(--color3); }
+  100% { text-shadow: 0px 0px 5px var(--color4); }
 }
