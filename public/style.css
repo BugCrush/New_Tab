@@ -32,7 +32,6 @@ font-family: 'Lato', sans-serif;
 font-weight: 700;
 background: #111;
 color: #fff;
-background-image: url("../media/bg10.png");
 }
 
 
@@ -1545,4 +1544,9 @@ span.redb {
   0%   { text-shadow: 0px 0px 5px var(--color4); }
   50%  { text-shadow: 0px 0px 5px var(--color3); }
   100% { text-shadow: 0px 0px 5px var(--color4); }
+}
+
+/*****BG CAROUSEL*****/
+div.carousel {
+  z-index: -100;
 }
