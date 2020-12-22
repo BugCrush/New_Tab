@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/BugCrush/New_Tab/issues"
   },
-  "homepage": "https://github.com/BugCrush/New_Tab#readme",
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/BugCrush/New_Tab#readme"
 }
