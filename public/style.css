@@ -32,6 +32,7 @@ font-family: 'Lato', sans-serif;
 font-weight: 700;
 background: #111;
 color: #fff;
+background-image: url("../media/bg10.png");
 }
 
 
@@ -50,12 +51,12 @@ position: absolute;
 z-index: 1;
 width: 0;
 height: 0;
-top: 0;
+top: 35px;
 right: 0;
 bottom: 0;
 left: 0;
 margin: auto;
-border-top: 200px solid #fff;
+border-top: 200px solid red;
 border-right: 100px solid transparent;
 border-left: 100px solid transparent;
 border-bottom: 0 solid transparent;
@@ -87,8 +88,8 @@ bottom: 0;
 left: 0;
 margin: auto;
 border-top: 200px solid transparent;
-border-right: 100px solid #111;
-border-left: 100px solid #111;
+border-right: 100px solid transparent;
+border-left: 100px solid transparent;
 border-bottom: 0 solid transparent;
 }
 .clock {
@@ -149,7 +150,7 @@ content: attr(data-time);
 position: absolute;
 top: 0;
 color: #fff;
-background: #111;
+background: transparent;
 overflow: hidden;
 width: 720px;
 height: 128px;
