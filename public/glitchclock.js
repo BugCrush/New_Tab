@@ -5,11 +5,6 @@ $(document).ready(function () {
   }
   setTimeout(second_passed, 2000)
 
-  $('.switcher').on('click', function(e) {
-    e.preventDefault();
-    $('.screen').toggleClass('glitch');
-  });
-
 
   var newDate = new Date();
   newDate.setDate(newDate.getDate());
