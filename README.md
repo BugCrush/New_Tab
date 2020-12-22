@@ -25,7 +25,6 @@ This is a personalized and customizable template for a New Tab since most of the
   4. JAVASCRIPT
   5. NODE.JS
   6. JQUERY
-  7. EJS
   
   
 ## Launch:
