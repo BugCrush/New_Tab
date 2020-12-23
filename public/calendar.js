@@ -1,6 +1,6 @@
-var $window = $(window);
-var $month = $('#js-month');
-var $tbody = $('#js-calendar-body');
+var $window = jQuery_3_1_1(window);
+var $month = jQuery_3_1_1('#js-month');
+var $tbody = jQuery_3_1_1('#js-calendar-body');
 
 var today = new Date();
 var currentYear = today.getFullYear(),
