@@ -9,8 +9,8 @@
 
 
 
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:600");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
 *,
 *:before,
 *:after {
@@ -29,7 +29,6 @@ body {
 height: 100%;
 }
 body {
-font-family: 'Lato', sans-serif;
 font-weight: 700;
 background: #111;
 color: #fff;
@@ -1547,7 +1546,96 @@ span.redb {
   100% { text-shadow: 0px 0px 5px var(--color4); }
 }
 
-/*****BG CAROUSEL*****/
+/*****BG CAROUSEL*****//*
 div.carousel {
   z-index: -100;
+}
+*/
+/*****CALENDAR*****/
+div.calendarside {
+  position: absolute;
+}
+div.flex-contatiner {/*
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  overflow: hidden;*/
+  
+}
+div.calendar-container {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
+  overflow: visible;
+}
+div.calendarbg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+div.calendarbg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../media/calendarbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: url("#duotone");
+          filter: url("#duotone");
+}
+div.calendar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+  margin-left: 10%;
+  padding-top: 15%;
+  border: 10px solid #fff;
+}
+div.calendar h2.month-title {
+  position: absolute;
+  top: -0.4em;
+  left: -0.3em;
+  margin: 0;
+  font-size: 200px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: red;
+  opacity: 0.75;  
+  font-family: 'Josefin Sans', sans-serif;
+}
+div.calendar table.calendar-table {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  border-collapse: collapse;
+  color: #fff;
+}
+div.calendar table.calendar-table th,
+div.calendar table.calendar-table td {
+  text-align: center;
+  font-size: 12px;
+}
+div.calendar table.calendar-table td {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+div.calendar table.calendar-table td:not(.is-today) {
+  opacity: 0.5;
+}
+div.calendar table.calendar-table td:hover {
+  opacity: 1;
+}
+div.calendar .is-today {
+  opacity: 1;
+  background-color: #fff;
+  color: #503282;
 }
