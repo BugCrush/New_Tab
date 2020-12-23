@@ -10,6 +10,8 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 *,
 *:before,
@@ -1565,7 +1567,8 @@ div.flex-contatiner {/*
   -webkit-box-align: center;
           align-items: center;
   overflow: hidden;*/
-  
+  margin-top: 410px;
+  margin-left: 1220px;
 }
 div.calendar-container {
   position: relative;
@@ -1622,7 +1625,13 @@ div.calendar table.calendar-table {
 div.calendar table.calendar-table th,
 div.calendar table.calendar-table td {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
+}
+div.calendar table.calendar-table th {
+  font-family: 'Londrina Shadow', cursive;
+}
+div.calendar table.calendar-table td {
+  font-family: 'Oswald', sans-serif;
 }
 div.calendar table.calendar-table td {
   -webkit-transition: opacity 0.3s ease;
