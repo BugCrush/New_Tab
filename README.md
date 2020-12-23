@@ -20,11 +20,13 @@ This is a personalized and customizable template for a New Tab since most of the
   
 ## Technologies Used:
   1. HTML5
-  2. CSS3
-  3. BOOTSTRAP4
-  4. JAVASCRIPT
-  5. NODE.JS
-  6. JQUERY
+  2. PUG
+  3. CSS3
+  4. STYLUS
+  5. BOOTSTRAP4
+  6. JAVASCRIPT
+  7. NODE.JS
+  8. JQUERY
   
   
 ## Launch:
