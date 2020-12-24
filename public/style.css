@@ -1648,3 +1648,210 @@ div.calendar .is-today {
   background-color: #fff;
   color: #503282;
 }
+
+/*****GOOGLE APPS*****/
+div.googleapps {
+  margin-left: 100px;
+  margin-top: -600px;
+}
+li.googleapps-dropdown {
+  padding: 20px 40px;
+  color: #fff;
+  background: #c06162;
+  background: #34495e;
+  position: relative;
+  font-size: 18px;
+  perspective: 1000px;
+  z-index: 99999999999999999999999999999999999999999999999;
+}
+li.googleapps-dropdown:hover {
+  background: #2980b9;
+  cursor: pointer;
+}
+li.googleapps-dropdowngrid:hover {
+  cursor: default;
+}
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-1,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-2,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-3,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-4,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-5,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-6,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-7,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-8,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-9,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-10,
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-11 {
+  display: block;
+}
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-1,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-2,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-3,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-4,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-5,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-6,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-7,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-8,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-9,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-10,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-11 {
+  display: none;
+  color: #fff;
+  background-color: #34495e;
+  padding: 10px 20px;
+  font-size: 16px;
+  opacity: 0;
+}
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-1,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-2,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-3,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-4,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-5,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-6,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-7,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-8,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-9,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-10,
+li.googleapps-dropdown ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-11 {
+  background-color: #2980b9;
+}
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-1,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-2,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-3,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-4,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-5,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-6,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-7,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-8,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-9,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-10,
+ul.googleapps-dropdowngrid--animated li.googleapps-dropdowngrid-row-11 {
+  display: block;
+  opacity: 1;
+}
+ul.googleapps-dropdowngrid {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  perspective: 1000px;
+  z-index: -1;
+}
+nav.googleapps-nav {
+  width: 20%;
+}
+ul.googleapps-dropdowngrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul.googleapps-dropdowngrid-row-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li.googleapps-dropdown:hover ul.googleapps-dropdowngrid--animated {
+  display: block;
+}
+ul.googleapps-dropdowngrid--animated {
+  display: none;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-1 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 60ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-2 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 120ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-3 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 180ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-4 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 240ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-5 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 300ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-6 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 360ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-7 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 420ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-8 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 480ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-9 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 520ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-10 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 580ms ease-in-out forwards;
+}
+ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-11 {
+  transform-origin: top center;
+  animation: rotateZ 300ms 660ms ease-in-out forwards;
+}
+@-moz-keyframes rotateZ {
+  0% {
+    opacity: 0;
+    transform: translateZ(290px);
+  }
+  80% {
+    transform: translateZ(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@-webkit-keyframes rotateZ {
+  0% {
+    opacity: 0;
+    transform: translateZ(290px);
+  }
+  80% {
+    transform: translateZ(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@-o-keyframes rotateZ {
+  0% {
+    opacity: 0;
+    transform: translateZ(290px);
+  }
+  80% {
+    transform: translateZ(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+@keyframes rotateZ {
+  0% {
+    opacity: 0;
+    transform: translateZ(290px);
+  }
+  80% {
+    transform: translateZ(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+ul.googleapps-menu, ul.googleapps-dropdowngrid, ul.googleapps-dropdowngrid-row-items {
+  list-style-type:none;
+}
