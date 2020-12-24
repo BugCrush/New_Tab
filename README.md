@@ -4,15 +4,14 @@ Customizable New Tab for personal use
 This is a personalized and customizable template for a New Tab since most of the new tabs in various browsers are total BS.
 
 ## Features:
-  1. DIGITAL CLOCK
-  2. CALENDER
+  1. DIGITAL CLOCK                      ✔️
+  2. CALENDER                           ✔️
   3. SHORTCUTS (Customizable)
-  4. WEATHER MONITOR
+  4. WEATHER MONITOR                    ✔️
   5. NEWS FEED
   6. BACKGROUND IMAGE (Customizable)
-  7. GOOGLE APPS
+  7. GOOGLE APPS                        ✔️
   8. GOOGLE IMAGES REVERSE SEARCH
-  9. DARK MODE TOGGLER
   
   
 ## Technologies Used:
