@@ -7,15 +7,12 @@ This is a personalized and customizable template for a New Tab since most of the
   1. DIGITAL CLOCK
   2. CALENDER
   3. SHORTCUTS (Customizable)
-  4. SETTINGS (Browser settings)
-  5. SEARCH HISTORY 
-  6. BOOKMARKS MANAGER
-  7. WEATHER MONITOR
-  8. NEWS FEED
-  9. BACKGROUND IMAGE (Customizable)
-  10. GOOGLE APPS
-  11. GOOGLE IMAGES REVERSE SEARCH
-  12. DARK MODE TOGGLER
+  4. WEATHER MONITOR
+  5. NEWS FEED
+  6. BACKGROUND IMAGE (Customizable)
+  7. GOOGLE APPS
+  8. GOOGLE IMAGES REVERSE SEARCH
+  9. DARK MODE TOGGLER
   
   
 ## Technologies Used:
