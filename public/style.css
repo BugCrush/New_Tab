@@ -12,6 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
 
 *,
 *:before,
@@ -1556,6 +1557,7 @@ div.carousel {
 /*****CALENDAR*****/
 div.calendarside {
   position: absolute;
+  
 }
 div.flex-contatiner {/*
   width: 50%;
@@ -1651,8 +1653,9 @@ div.calendar .is-today {
 
 /*****GOOGLE APPS*****/
 div.googleapps {
-  margin-left: 100px;
-  margin-top: -600px;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
 }
 li.googleapps-dropdown {
   padding: 20px 40px;
@@ -1854,4 +1857,18 @@ ul.googleapps-dropdowngrid li.googleapps-dropdowngrid-row-11 {
 }
 ul.googleapps-menu, ul.googleapps-dropdowngrid, ul.googleapps-dropdowngrid-row-items {
   list-style-type:none;
+}
+
+/*****WEATHER MONITOR*****/
+div.weathermonitor {
+  width: 250px;
+  margin-left: 25px;
+  margin-top: -645px;
+  z-index: 99999999999999999999999999999999999999999999999999999999999;
+}
+
+/*****NEWS FEED*****/
+div.newsfeed {
+  position: relative;
+  z-index: 99999999999999999999999999999999999999999999999999999999999;
 }
