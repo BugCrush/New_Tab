@@ -7,4 +7,5 @@
         fjs.parentNode.insertBefore(js,fjs);
     }
 }
+
 (document,'script','weatherwidget-io-js');
