@@ -1572,12 +1572,12 @@ div.flex-contatiner {/*
           align-items: center;
   overflow: hidden;*/
   margin-top: 360px;
-  margin-left: 1220px;
+  margin-left: 1170px;
 }
 div.calendar-container {
   position: relative;
-  width: 260px;
-  height: 260px;
+  width: 300px;
+  height: 300px;
   box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
   overflow: visible;
 }
@@ -1926,9 +1926,10 @@ span.google-list-item {
 }
 /*****WEATHER MONITOR*****/
 div.weathermonitor {
-  width: 250px;
-  margin-left: 25px;
-  margin-top: -340px;
+  width: 314.5px;
+  margin-left: 40px;
+  margin-top: -345px;
+  background-image: url("../media/weatherbg.jpg");
 }
 
 /*****NEWS FEED*****//*
@@ -1970,11 +1971,12 @@ li.shortcuts-inner {
   padding: 15px;
   border-radius: 6px;
   border: 2px solid rgb(163, 154, 154);
+  background-image: url("../media/shortcutbg.jpg");
   transition: 0.3s;
 }
 li.shortcuts-inner:hover {
   border: 2px solid black;
-  background-color: rgb(163, 154, 154);
+  background-image: url("../media/shortcutbg-neg.jpg");
 }
 span.shortcut-inner-item {
   display: flex;
