@@ -6,11 +6,10 @@ This is a personalized and customizable template for a New Tab since most of the
 ## Features:
   1. DIGITAL CLOCK                      ✔️
   2. CALENDER                           ✔️
-  3. SHORTCUTS
+  3. SHORTCUTS                          ✔️
   4. WEATHER MONITOR                    ✔️
   7. BACKGROUND IMAGE 
   8. GOOGLE APPS                        ✔️
-  9. GOOGLE IMAGES REVERSE SEARCH
   
   
 ## Technologies Used:
