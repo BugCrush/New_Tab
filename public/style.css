@@ -1932,7 +1932,7 @@ div.weathermonitor {
   z-index: 99999999999999999999999999999999999999999999999999999999999;
 }
 
-/*****NEWS FEED*****/
+/*****NEWS FEED*****//*
 div.newsfeed {
   position: relative;
   z-index: 99999999999999999999999999999999999999999999999999999999999;
@@ -1945,4 +1945,4 @@ a.newsfeedbtn:hover {
   font-size: 25px;
   background-color: #00f;
   font-weight: bolder;
-}
+}*/
