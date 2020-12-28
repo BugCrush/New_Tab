@@ -38,10 +38,10 @@ font-weight: 700;
 background: #111;
 color: #fff;
 background-size: cover;
--webkit-animation: bgchange 190s linear infinite;
-   -moz-animation: bgchange 190s linear infinite;
-     -o-animation: bgchange 190s linear infinite;
-       -animation: bgchange 190s linear infinite;
+-webkit-animation: bgchange 300s linear infinite;
+   -moz-animation: bgchange 300s linear infinite;
+     -o-animation: bgchange 300s linear infinite;
+       -animation: bgchange 300s linear infinite;
 }
 @-webkit-keyframes bgchange {
   0%       { background-image: url("../media/bg10.png"); background-size: cover; }
