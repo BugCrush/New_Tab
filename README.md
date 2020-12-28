@@ -1,7 +1,7 @@
 # New-Tab
-Customizable New Tab for personal use
+New Tab for personal use
 
-This is a personalized and customizable template for a New Tab since most of the new tabs in various browsers are total BS.
+This is a personalized template for a New Tab since most of the new tabs in various browsers are total BS.
 
 ## Features:
   1. DIGITAL CLOCK                      ✔️
@@ -33,10 +33,9 @@ This is a personalized and customizable template for a New Tab since most of the
 ## Instructions to Contribute:
   1. ```git clone https://github.com/BugCrush/New_Tab.git```
   2. ```cd New_Tab```
-  3. ```npm i```
-  4. ```npm start```
-  5. Go to browser and visit "localhost:3000/"
-  6. Refresh the webpage each time you make a change to see the results
+  3. ```cd public```
+  4. ```index.html```
+  5. Refresh the webpage each time you make a change to see the results
  
  
 ## Contribution:
