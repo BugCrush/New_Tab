@@ -2008,13 +2008,20 @@ div.weathermonitor {
 }
 
 /*****SHORTCUTS*****/
-div.shortcuts {
+div.shortcuts-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
   position: absolute;
-  transform: translateX(48.5%);
+  z-index: 9999999;
+}
+div.shortcuts-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  position: absolute;
   z-index: 999999;
 }
 ul.shortcuts-outer-1 {
@@ -2027,6 +2034,7 @@ ul.shortcuts-outer-1 {
   border-radius: 10px;
   border: 2px solid rgb(163, 154, 154);
   width: 780px;
+  transform: translateX(48.5%);
 }
 
 ul.shortcuts-outer-2 {
@@ -2040,7 +2048,7 @@ ul.shortcuts-outer-2 {
   border: 2px solid rgb(163, 154, 154);
   width: 530px;
   margin-top: 450px;
-  transform: translateX(47%);
+  margin-left: 505px;
 }
 li.shortcuts-inner {
   padding: 15px;
