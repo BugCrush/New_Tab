@@ -37,7 +37,104 @@ body {
 font-weight: 700;
 background: #111;
 color: #fff;
+background-size: cover;
+-webkit-animation: bgchange 190s linear infinite;
+   -moz-animation: bgchange 190s linear infinite;
+     -o-animation: bgchange 190s linear infinite;
+       -animation: bgchange 190s linear infinite;
 }
+@-webkit-keyframes bgchange {
+  0%       { background-image: url("../media/bg10.png"); background-size: cover; }
+  8.999%   { background-image: url("../media/bg10.png"); background-size: cover; }
+  10%      { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  18.999%  { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  20%      { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  28.999%  { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  30%      { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  38.999%  { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  40%      { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  48.999%  { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  50%      { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  58.999%  { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  60%      { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  68.999%  { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  70%      { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  78.999%  { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  80%      { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  88.999%  { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  90%      { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  98.999%  { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  100%     { background-image: url("../media/bg10.png"); background-size: cover; }
+  }
+  @-o-keyframes bgchange {
+  0%       { background-image: url("../media/bg10.png"); background-size: cover; }
+  8.999%   { background-image: url("../media/bg10.png"); background-size: cover; }
+  10%      { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  18.999%  { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  20%      { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  28.999%  { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  30%      { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  38.999%  { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  40%      { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  48.999%  { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  50%      { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  58.999%  { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  60%      { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  68.999%  { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  70%      { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  78.999%  { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  80%      { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  88.999%  { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  90%      { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  98.999%  { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  100%     { background-image: url("../media/bg10.png"); background-size: cover; }
+  }
+  @-moz-keyframes bgchange {
+  0%       { background-image: url("../media/bg10.png"); background-size: cover; }
+  8.999%   { background-image: url("../media/bg10.png"); background-size: cover; }
+  10%      { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  18.999%  { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  20%      { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  28.999%  { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  30%      { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  38.999%  { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  40%      { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  48.999%  { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  50%      { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  58.999%  { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  60%      { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  68.999%  { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  70%      { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  78.999%  { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  80%      { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  88.999%  { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  90%      { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  98.999%  { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  100%     { background-image: url("../media/bg10.png"); background-size: cover; }
+  }
+  @keyframes bgchange {
+  0%       { background-image: url("../media/bg10.png"); background-size: cover; }
+  8.999%   { background-image: url("../media/bg10.png"); background-size: cover; }
+  10%      { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  18.999%  { background-image: url("../media/bg9.jpg"); background-size: cover; }
+  20%      { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  28.999%  { background-image: url("../media/bg8.jpg"); background-size: cover; }
+  30%      { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  38.999%  { background-image: url("../media/bg7.jpg"); background-size: cover; }
+  40%      { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  48.999%  { background-image: url("../media/bg6.jpg"); background-size: cover; }
+  50%      { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  58.999%  { background-image: url("../media/bg5.jpg"); background-size: cover; }
+  60%      { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  68.999%  { background-image: url("../media/bg4.jpg"); background-size: cover; }
+  70%      { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  78.999%  { background-image: url("../media/bg3.jpg"); background-size: cover; }
+  80%      { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  88.999%  { background-image: url("../media/bg2.jpg"); background-size: cover; }
+  90%      { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  98.999%  { background-image: url("../media/bg1.jpg"); background-size: cover; }
+  100%     { background-image: url("../media/bg10.png"); background-size: cover; }
+  }
 
 
 /*****CLOCK*****/
@@ -1551,11 +1648,6 @@ span.redb {
   100% { text-shadow: 0px 0px 5px var(--color4); }
 }
 
-/*****BG CAROUSEL*****//*
-div.carousel {
-  z-index: -100;
-}
-*/
 /*****CALENDAR*****/
 div.calendarside {
   position: absolute;
@@ -1926,6 +2018,7 @@ span.google-list-item {
 }
 /*****WEATHER MONITOR*****/
 div.weathermonitor {
+  position: absolute;
   width: 314.5px;
   margin-left: 40px;
   margin-top: -345px;
@@ -1995,3 +2088,7 @@ a.shortcut-inner-item:hover {
 img.shortcut-inner-item {
   width: 70px;
 }
+/*****BGCAROUSEL*****//*
+div.background-carousel {
+  position: absolute;
+}*/
