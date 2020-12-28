@@ -8,7 +8,7 @@ This is a personalized and customizable template for a New Tab since most of the
   2. CALENDER                           ✔️
   3. SHORTCUTS                          ✔️
   4. WEATHER MONITOR                    ✔️
-  7. BACKGROUND IMAGE 
+  7. BACKGROUND IMAGE                   ✔️
   8. GOOGLE APPS                        ✔️
   
   
