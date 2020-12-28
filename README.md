@@ -19,8 +19,7 @@ This is a personalized template for a New Tab since most of the new tabs in vari
   4. STYLUS
   5. BOOTSTRAP4
   6. JAVASCRIPT
-  7. NODE.JS
-  8. JQUERY
+  7. JQUERY
   
   
 ## Launch:
