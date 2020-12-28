@@ -1,13 +1,3 @@
-/*VARIABLES*/
-:root {
-  --color1: #fff;
-  --color2: #111;
-  --color3: #00f;
-  --color4: #f00;
-  --color5: #008000;
-}
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
@@ -1654,16 +1644,7 @@ div.calendarside {
   position: absolute;
   
 }
-div.flex-contatiner {/*
-  width: 50%;
-  height: 50%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  overflow: hidden;*/
+div.flex-contatiner {
   margin-top: 360px;
   margin-left: 1170px;
 }
@@ -2026,20 +2007,6 @@ div.weathermonitor {
   background-image: url("../media/weatherbg.jpg");
 }
 
-/*****NEWS FEED*****//*
-div.newsfeed {
-  position: relative;
-  z-index: 99999999999999999999999999999999999999999999999999999999999;
-}
-a.newsfeedbtn {
-  background-color: #2980b9;
-  font-weight: bold;
-}
-a.newsfeedbtn:hover {
-  font-size: 25px;
-  background-color: #00f;
-  font-weight: bolder;
-}*/
 /*****SHORTCUTS*****/
 div.shortcuts {
   display: flex;
@@ -2103,7 +2070,3 @@ a.shortcut-inner-item:hover {
 img.shortcut-inner-item {
   width: 70px;
 }
-/*****BGCAROUSEL*****//*
-div.background-carousel {
-  position: absolute;
-}*/
