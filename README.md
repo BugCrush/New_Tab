@@ -26,7 +26,7 @@ This is a personalized template for a New Tab since most of the new tabs in vari
   1. Head over to browser settings
   2. Navigate to the 'On Start-Up' section
   3. Select the 'Open A Specific Page' radio button
-  4. Set the new tab site URL as: 
+  4. Set the new tab site URL as: https://bugcrush.github.io/New_Tab/
   
   
 ## Instructions to Contribute:
